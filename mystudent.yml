@@ -1,0 +1,24 @@
+---
+- myStudents: 
+  - name: anil
+    phno: 8989998989
+    address:
+       - DoorNO: 787
+       - street: 2
+       - pincode: 787878787
+
+  - name: balu
+    phno: 7878787878
+    address: 
+        - DoorNO: 787
+        - street: 2
+        - pincode: 787878787
+
+  - name: chandu 
+    phno: 787878787
+    address: 
+      - DoorNO: 787
+      - street: 2
+      - pincode: 787878787
+
+                        
