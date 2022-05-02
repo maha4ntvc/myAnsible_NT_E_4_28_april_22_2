@@ -18,3 +18,9 @@
 
 [myRedHatservers]
 172.31.28.191
+
+
+[mywebservers:vars]
+myvar= value
+mywebpackonubuntu= nginx22222222222
+mywebpackonredhat= httpd
