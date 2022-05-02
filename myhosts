@@ -20,7 +20,3 @@
 172.31.28.191
 
 
-[mywebservers:vars]
-myvar= value
-mywebpackonubuntu=  apache2
-mywebpackonredhat= httpd
