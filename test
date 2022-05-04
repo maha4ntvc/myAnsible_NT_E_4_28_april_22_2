@@ -1,0 +1,6 @@
+[webserver]
+server01 java8
+server02 java8
+server03 java8
+server04 java9
+server05 java8
