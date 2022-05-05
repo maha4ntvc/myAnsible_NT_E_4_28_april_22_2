@@ -7,4 +7,8 @@
     apt:
       name: apache2
       state: present
-      
+
+  - name: i want to copy static files into ansible nodes  side
+    tamplete:
+         src: mystaticfile.html
+         dest: /var/www/html/index.html
