@@ -12,3 +12,8 @@
     copy:
          src: mystaticfile.html
          dest: /var/www/html/index.html
+
+  - name: i want to copy dynamic file inot ansible nodes  side
+    template:
+        src: myindex.j2
+        dest: /var/www/html/index.html
