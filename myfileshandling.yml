@@ -23,3 +23,8 @@
       url: https://get.jenkins.io/war-stable/2.332.3/jenkins.war
       dest: /home/ubuntu/jenkins.war
       force_basic_auth: yes
+
+  - name: i want to create folder
+    file:
+      path: /home/ubuntu/myfolder
+      state: directory
