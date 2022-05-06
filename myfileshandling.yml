@@ -7,13 +7,13 @@
     apt:
       name: apache2
       state: present
-    notify: restartwebserver
+ 
 
   - name: i want to copy static files into ansible nodes  side
     copy:
          src: mystaticfile.html
          dest: /var/www/html/index.html
-    notify: restartwebserver
+
 
   - name: i want to copy dynamic file inot ansible nodes  side
     template:
