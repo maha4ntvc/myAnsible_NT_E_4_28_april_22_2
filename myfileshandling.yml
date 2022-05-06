@@ -17,3 +17,9 @@
     template:
         src: myindex.j2
         dest: /var/www/html/index.html
+
+  - name: i want to downlod files from remote(internet) into nodes side
+    get_url:
+      url: https://get.jenkins.io/war-stable/2.332.3/jenkins.war
+      dest: /home/ubuntu/jenkins.war
+      force_basic_auth: yes
