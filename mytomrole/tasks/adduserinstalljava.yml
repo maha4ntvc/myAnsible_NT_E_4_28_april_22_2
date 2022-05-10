@@ -1,10 +1,10 @@
 ---
-- name: add tomcat user
+- name: remove tomcat user
   user:
     name: tomcat
-    home: /opt/tomcat
-    shell: /bin/false
-    state: 	present
+    state: 	absent
+- name: create user 
+  command: sudo useradd -m -d /opt/tomcat -U -s /bin/false tomcat
 
 - name: update package
   apt:
