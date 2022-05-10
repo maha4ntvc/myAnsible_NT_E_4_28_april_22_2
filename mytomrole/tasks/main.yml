@@ -4,4 +4,5 @@
 - include_tasks: installtomcat.yml
 - include_tasks: configureadminuser.yml
 - include_tasks: tomservice.yml
-# - include_tasks: deploy.yml
+- include_tasks: deploy.yml
+- include_tasks: tomrestart.yml

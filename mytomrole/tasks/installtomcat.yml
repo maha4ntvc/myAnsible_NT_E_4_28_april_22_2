@@ -6,7 +6,7 @@
     force_basic_auth: yes
 - name: exectract
   command: 
-       cmd: sudo tar xzvf apache-tomcat-10*tar.gz -C /opt/tomcat --strip-components=1
+       cmd: sudo tar xzvf /home/ubuntu/apache-tomcat-10.0.20.tar.gz -C /opt/tomcat --strip-components=1
        creates: /opt/tomcat/LICENSE
 - name: exectract
   command: 
