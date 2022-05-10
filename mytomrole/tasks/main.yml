@@ -1,2 +1,7 @@
 ---
 # tasks file for mytomrole
+- include_tasks: adduserinstalljava.yml
+- include_tasks: installtomcat.yml
+- include_tasks: configureadminuser.yml
+- include_tasks: tomservice.yml
+# - include_tasks: deploy.yml

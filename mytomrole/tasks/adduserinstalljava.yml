@@ -1,0 +1,17 @@
+---
+- name: add tomcat user
+  user:
+    name: tomcat
+    home: /opt/tomcat
+    shell: /bin/false
+    state: 	present
+
+- name: update package
+  apt:
+     update_cache: yes
+
+- name: install java8
+  apt:
+    name: openjdk-8-jre
+    state: present
+

@@ -1,0 +1,5 @@
+---
+- hosts: myapplicationservers
+  become: yes
+  roles:
+  - mytomrole
